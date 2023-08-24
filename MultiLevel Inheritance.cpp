@@ -36,8 +36,8 @@ void Exam :: set_marks(float m1,float m2)
 
 void Exam :: get_marks()
 {
-	cout<<"the marks obtained in maths are:"<<maths<<endl;
-	cout<<"the marks obtained in physics are:"<<physics<<endl;
+	cout<<"the marks obtained in maths are: "<<maths<<endl;
+	cout<<"the marks obtained in physics are: "<<physics<<endl;
 }
 
 class Result : public Exam{
